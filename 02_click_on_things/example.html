@@ -57,6 +57,30 @@
   stroke-width: 2;
   opacity: 0;
 }
+
+.col {
+    fill: #0000ff;
+    fill-rule: evenodd;
+    stroke-width: 0.264583;
+    fill-opacity: 0.48582995;
+}
+.label {
+    fill: #ac9393;
+    stroke: #000000;
+    stroke-width: 0.264583px;
+    stroke-linecap: butt;
+    stroke-linejoin: miter;
+    stroke-opacity: 1;
+    fill-opacity: 1.0;
+    cursor: pointer;
+}
+.label.active {
+    fill: #ff00ff;
+}
+.col.active {
+    fill: #ff00ff;
+}
+
     </style>
 
 </head>
@@ -68,92 +92,95 @@
                 x="51.404762"
                 height="120.95238"
                 width="19.654762"
-                id="COL1"
+                id="COLX1"
                 onclick="alert('click!')" pointer-events="visiblePainted"
-                style="fill:#0000ff;fill-rule:evenodd;stroke-width:0.264583;fill-opacity:0.48582995" />
+                class="col" />
         <rect
                 y="51.404762"
                 x="78.512756"
                 height="120.95238"
                 width="21.166666"
-                id="COL2"
-                style="fill:#0000ff;fill-opacity:0.48583;fill-rule:evenodd;stroke-width:0.894454" />
+                id="COLX2"
+                class="col"
+                 />
         <path
-                id="path837"
+                id="BTNX1"
                 d="M 60.453978,47.755881 52.448658,38.370332 52.17261,19.599235 H 68.459299 V 39.19847 Z"
-                style="fill:#ac9393;stroke:#000000;stroke-width:0.26458300000000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+                class="label"
+                 />
         <path
-                style="fill:#ac9393;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+                class="label"
                 d="M 87.645448,47.722769 79.640128,38.33722 79.36408,19.566123 h 16.286688 v 19.599235 z"
                 id="BTNX2" />
         <rect
-                style="fill:#0000ff;fill-opacity:0.48583;fill-rule:evenodd;stroke-width:0.264583"
-                id="COL3"
+                class="col"
+                id="COLX3"
                 width="19.654762"
                 height="120.95238"
                 x="106.43222"
                 y="51.573132" />
         <rect
-                style="fill:#0000ff;fill-opacity:0.48583;fill-rule:evenodd;stroke-width:0.894453"
-                id="rect835-2"
+                class="col"
+                id="COLX4"
                 width="21.166666"
                 height="120.95238"
                 x="133.54021"
                 y="51.573132" />
         <path
-                style="fill:#ac9393;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+                class="label"
                 d="m 115.48144,47.924253 -8.00532,-9.385548 -0.27605,-18.771098 h 16.28669 v 19.599236 z"
                 id="BTNX3" />
         <path
-                id="path837-7-3"
+                id="BTNX4"
                 d="m 142.67291,47.891141 -8.00532,-9.385548 -0.27605,-18.771098 h 16.28669 v 19.599236 z"
-                style="fill:#ac9393;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+                class="label" />
+
         <rect
                 transform="rotate(-90.212647)"
-                style="fill:#0000ff;fill-opacity:0.48583;fill-rule:evenodd;stroke-width:0.264583"
-                id="ROW4"
+                class="col"
+                id="COLY4"
                 width="19.654762"
                 height="120.95238"
                 x="-164.45221"
                 y="40.497368" />
         <rect
                 transform="rotate(-90.212647)"
-                style="fill:#0000ff;fill-opacity:0.48583;fill-rule:evenodd;stroke-width:0.894453"
-                id="ROW3"
+                class="col"
+                id="COLY3"
                 width="21.166666"
                 height="120.95238"
                 x="-137.34421"
                 y="40.497368" />
         <path
-                style="fill:#ac9393;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+                class="label"
                 d="m 37.425008,155.26515 -9.355784,8.0401 -18.7699452,0.34572 -0.06045,-16.28658 19.5991122,-0.0727 z"
                 id="BTNY4" />
         <path
                 id="BTNY3"
                 d="m 37.290958,128.07399 -9.355758,8.04011 -18.7699472,0.34571 -0.06044,-16.28658 19.5990912,-0.0727 z"
-                style="fill:#ac9393;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+                class="label" />
         <rect
                 transform="rotate(-90.212647)"
                 y="40.665741"
                 x="-109.42474"
                 height="120.95238"
                 width="19.654762"
-                id="ROW2"
-                style="fill:#0000ff;fill-opacity:0.48583;fill-rule:evenodd;stroke-width:0.264583" />
+                id="COLY2"
+                class="col" />
         <rect
                 transform="rotate(-90.212647)"
                 y="40.665741"
                 x="-82.316757"
                 height="120.95238"
                 width="21.166666"
-                id="ROW1"
-                style="fill:#0000ff;fill-opacity:0.48583;fill-rule:evenodd;stroke-width:0.894453" />
+                id="COLY1"
+                class="col" />
         <path
                 id="BTNY2"
                 d="m 37.389138,100.23746 -9.355767,8.04009 -18.7699542,0.34571 -0.06045,-16.286571 19.5991022,-0.0727 z"
-                style="fill:#ac9393;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+                class="label" />
         <path
-                style="fill:#ac9393;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+                class="label"
                 d="m 37.255108,73.046289 -9.355768,8.04009 -18.7699462,0.34572 -0.06045,-16.28657 19.5991052,-0.0727 z"
                 id="BTNY1" />
     </g>
@@ -175,251 +202,17 @@
         Reset
     </button>
 </div>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/utils/Draggable.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.3.0/material.min.js"></script>
 
+<script
+        src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+        crossorigin="anonymous"></script>
 
-<script>
+<script src="./example.js"></script>
 
-console.clear();
-
-var svg = document.querySelector("#svg");
-var reset = document.querySelector("#reset");
-var pivot = document.querySelector("#pivot");
-var proxy = document.createElement("div");
-var viewport = document.querySelector("#viewport");
-
-var rotateThreshold = 4;
-var reachedThreshold = false;
-
-var point = svg.createSVGPoint();
-var startClient = svg.createSVGPoint();
-var startGlobal = svg.createSVGPoint();
-
-var viewBox = svg.viewBox.baseVal;
-
-var cachedViewBox = {
-  x: viewBox.x,
-  y: viewBox.y,
-  width: viewBox.width,
-  height: viewBox.height
-};
-
-var zoom = {
-  animation: new TimelineLite(),
-  scaleFactor: 1.6,
-  duration: 0.5,
-  ease: Power2.easeOut,
-};
-
-TweenLite.set(pivot, { scale: 0 });
-
-var resetAnimation = new TimelineLite();
-var pivotAnimation = TweenLite.to(pivot, 0.1, {
-  alpha: 1,
-  scale: 1,
-  paused: true,
-});
-
-var pannable = new Draggable(proxy, {
-  throwResistance: 3000,
-  trigger: svg2,
-  onPress: selectDraggable,
-  onDrag: updateViewBox,
-  onThrowUpdate: updateViewBox,
-});
-
-var rotatable = new Draggable(viewport, {
-  type: "rotation",
-  trigger: svg,
-  liveSnap: true,
-  snap: checkThreshold,
-  onPress: selectDraggable,
-});
-
-rotatable.disable();
-
-reset.addEventListener("click", resetViewport);
-window.addEventListener("wheel", onWheel, { passive: false });
-window.addEventListener("resize", function() {
-  pivotAnimation.reverse();
-});
-
-//  document.querySelector("#BTNX2").addEventListener("click", labelClick, { passive: false });
-document.getElementById("BTNX2").addEventListener("click", labelClick, false);
-
-window.addEventListener("contextmenu", function(event) {
-  event.preventDefault();
-	event.stopPropagation();
-  return false;
-});
-
-
-function labelClick(event) {
-    console.log("clicked!");
-    alert("clicked!");
-}
-
-
-//
-// ON WHEEL
-// ===========================================================================
-function onWheel(event) {
-  event.preventDefault();
-
-  pivotAnimation.reverse();
-
-  var normalized;
-  var delta = event.wheelDelta;
-
-  if (delta) {
-    normalized = (delta % 120) == 0 ? delta / 120 : delta / 12;
-  } else {
-    delta = event.deltaY || event.detail || 0;
-    normalized = -(delta % 3 ? delta * 10 : delta / 3);
-  }
-
-  var scaleDelta = normalized > 0 ? 1 / zoom.scaleFactor : zoom.scaleFactor;
-
-  point.x = event.clientX;
-  point.y = event.clientY;
-
-  var startPoint = point.matrixTransform(svg.getScreenCTM().inverse());
-
-  var fromVars = {
-    ease: zoom.ease,
-    x: viewBox.x,
-    y: viewBox.y,
-    width: viewBox.width,
-    height: viewBox.height,
-  };
-
-  viewBox.x -= (startPoint.x - viewBox.x) * (scaleDelta - 1);
-  viewBox.y -= (startPoint.y - viewBox.y) * (scaleDelta - 1);
-  viewBox.width *= scaleDelta;
-  viewBox.height *= scaleDelta;
-
-  zoom.animation = TweenLite.from(viewBox, zoom.duration, fromVars);
-}
-
-//
-// SELECT DRAGGABLE
-// ===========================================================================
-function selectDraggable(event) {
-
-  if (resetAnimation.isActive()) {
-    resetAnimation.kill();
-  }
-
-  startClient.x = this.pointerX;
-  startClient.y = this.pointerY;
-  startGlobal = startClient.matrixTransform(svg.getScreenCTM().inverse());
-
-  // Right mouse button
-  if (event.button === 2) {
-
-    reachedThreshold = false;
-
-    TweenLite.set(viewport, {
-      svgOrigin: startGlobal.x + " " + startGlobal.y
-    });
-
-    TweenLite.set(pivot, {
-      x: this.pointerX,
-      y: this.pointerY
-    });
-
-    pannable.disable();
-    rotatable.enable().update().startDrag(event);
-    pivotAnimation.play(0);
-
-  } else {
-
-    TweenLite.set(proxy, {
-      x: this.pointerX,
-      y: this.pointerY
-    });
-
-    rotatable.disable();
-    pannable.enable().update().startDrag(event);
-    pivotAnimation.reverse();
-  }
-}
-
-//
-// RESET VIEWPORT
-// ===========================================================================
-function resetViewport() {
-
-  var duration = 0.8;
-  var ease = Power3.easeOut;
-
-  pivotAnimation.reverse();
-
-  if (pannable.tween) {
-    pannable.tween.kill();
-  }
-
-  if (rotatable.tween) {
-    rotatable.tween.kill();
-  }
-
-  resetAnimation.clear()
-    .to(viewBox, duration, {
-      x: cachedViewBox.x,
-      y: cachedViewBox.y,
-      width: cachedViewBox.width,
-      height: cachedViewBox.height,
-      ease: ease
-    }, 0)
-    .to(viewport, duration, {
-      attr: { transform: "matrix(1,0,0,1,0,0)" },
-      // rotation: "0_short",
-      smoothOrigin: false,
-      svgOrigin: "0 0",
-      ease: ease
-    }, 0)
-}
-
-//
-// CHECK THRESHOLD
-// ===========================================================================
-function checkThreshold(value) {
-
-  if (reachedThreshold) {
-    return value;
-  }
-
-  var dx = Math.abs(this.pointerX - startClient.x);
-  var dy = Math.abs(this.pointerY - startClient.y);
-
-  if (dx > rotateThreshold || dy > rotateThreshold || this.isThrowing) {
-    reachedThreshold = true;
-    return value;
-  }
-
-  return this.rotation;
-}
-
-//
-// UPDATE VIEWBOX
-// ===========================================================================
-function updateViewBox() {
-
-  if (zoom.animation.isActive()) {
-    return;
-  }
-
-  point.x = this.x;
-  point.y = this.y;
-
-  var moveGlobal = point.matrixTransform(svg.getScreenCTM().inverse());
-
-  viewBox.x -= (moveGlobal.x - startGlobal.x);
-  viewBox.y -= (moveGlobal.y - startGlobal.y);
-}
-
-</script>
 </body>
 </html>
